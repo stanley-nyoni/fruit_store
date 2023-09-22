@@ -1,0 +1,46 @@
+1. Start HTML document
+2. Start HTML head section
+   a. Include the title tag with "Fruit Store" as the webpage title
+3. End HTML head section
+4. Start HTML body section
+   a. Create a navigation bar using an unordered list (ul) to list the links
+      i. Start list item 1 (li)
+         - Create a link (a) with the text "Home" and link it to the home section
+      ii. End list item 1 (li)
+      iii. Start list item 2 (li)
+         - Create a link (a) with the text "About Us" and link it to "about.html"
+      iv. End list item 2 (li)
+      v. Start list item 3 (li)
+         - Create a link (a) with the text "Contact Us" and link it to "contact.html"
+      vi. End list item 3 (li)
+      vii. Start list item 4 (li)
+         - Create a link (a) with the text "Shop" and link it to the shop section
+      viii. End list item 4 (li)
+   b. Start Home section
+      i. Insert an image tag (e.g., <img>) with the source (src) attribute pointing to a fruit store image
+      ii. Add introductory text using paragraph tags (e.g., <p>)
+         - Example text you can use: Welcome to our Fruit Store! We offer a wide selection of fresh and delicious fruits.
+   c. End Home section
+   d. Start Shop section
+      i. Create a table (table) to display the fruits
+      ii. Start table header (thead)
+         - Start table row (tr)
+            - Create table header cells (th) for "Fruits," "Prices," and "Images"
+         - End table row (tr)
+      iii. End table header (thead)
+      iv. Start table body (tbody)
+         - Start table row (tr)
+            - Start table data cell (td) for the name of the fruit
+               - Add the name of the first fruit
+            - Start table data cell (td) for the price
+               - Add the price of the first fruit
+            - Start table data cell (td) for the image
+               - Insert an image tag (e.g., <img>) with the source (src) attribute pointing to the image of the first fruit
+            - End table data cell (td)
+         - End table row (tr)
+         ... (Repeat for additional fruits)
+      v. End table body (tbody)
+      vi. End table (table)
+   e. End Shop section
+5. End HTML body section
+6. End HTML document

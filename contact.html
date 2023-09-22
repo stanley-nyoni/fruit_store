@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Fruit Store</title>
+</head>
+<style>
+    /* Style the Contact Us section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    width: 30%;
+}
+
+.contact-item h3 {
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #333;
+    font-size: 16px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style form elements on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Style button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>3 Dunbar Street, Blairgowrie</p>
+                <p> Johannesburg, 2001</p>
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>Email: info@yourfruitstore.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>Phone: +27 6 456 7890</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
